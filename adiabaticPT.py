@@ -16,12 +16,13 @@ plt.ion()
 # the planet and stellar data, calculates planet's effective 
 # temperature, produces an adiabatic profile (in the range
 # of profiles in the literature) and plots it.
-# The code takes 1 argument on the command line: "adibaticPT.py tepfile"
+# The code takes 1 argument on the command line: "adiabaticPT.py tepfile"
 # Each run produces different profile so the user can pick the one
 # that most suits his/her needs. Free parameters for the profile 
 # are printed on the screen and returned by the function 'freeParams'.
 # ======================================================================
 
+# 2014-04-14 0.1  Jasmina Blecic, jasmina@physics.ucf.edu   Original version
 
 # reads the tep file and calculates planet's effective temperature
 def planet_Teff(tepfile):
